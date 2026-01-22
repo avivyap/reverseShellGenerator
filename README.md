@@ -10,10 +10,16 @@ Este script en Bash te permite obtener una reverse shell customizada con la ip y
 <img width="1139" height="483" alt="image" src="https://github.com/user-attachments/assets/4eea2c50-26d4-4456-a7db-ff5652805210" />
 #Instalación:
 Clonamos el repositorio
-  git clont https://github.com/avivyap/reverseShellGenerator
+```bash
+  git clone https://github.com/avivyap/reverseShellGenerator
+```
 Le damos permisos de ejecución
+```bash
   cd reverseShellGenerator
   chmod +100 reverse.sh
+```
 Ejecutamos el script
+```bash
   ./reverse -l lenguaje -i ip_objetivo -p puerto
   ./reverse -l bash -i 192.168.1.1 -p 1212
+```
