@@ -29,11 +29,11 @@ function ctrl_c(){
 
 function helpPanel(){
 
-	echo -e "\n${yellowColour}[+]${endColour}${grayColour} Uso: ./reverGen.sh -l lenguaje -i ip -p port${endColour}\n"
+	echo -e "\n${yellowColour}[+]${endColour}${grayColour} Uso: ./reverse.sh -l lenguaje -i ip -p port${endColour}\n"
 	echo -e "\t${purpleColour}l)${endColour}${blueColour} Especifica el lenguaje${endColour}\n"
 	echo -e "\t${purpleColour}i)${endColour}${blueColour} Especifica la ip\n"
 	echo -e "\t${purpleColour}p)${endColour}${blueColour} Especifica el puerto\n"
-	echo -e "\t${grayColour} Ejemplo: ./reverGen.sh -l bash -i 10.10.1.1 -p 1212${endColour}"
+	echo -e "\t${grayColour} Ejemplo: ./reverse.sh -l bash -i 10.10.1.1 -p 1212${endColour}"
 	tput cnorm;exit 0
 }
 
